@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: purple;
+}
+
+
+.el1 {
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(to right, blue, grey);
+}
+
+.el2 {
+    width: 200px;
+    height: 100px;
+    background: linear-gradient(to top, red, blue);
+    float: right;
+    margin-top: -80px;
+}
+
+.el3 {
+    width: 100vw;
+    height: 100px;
+    background: linear-gradient(to top, blue, black);
+    margin-top: 20px;
+}
+
+.el4 {
+    position: absolute;
+    top: 1;
+    left: 100px;
+    width: 200px;
+    height: 1650px;
+    background: linear-gradient(to bottom, blue, green);
+}
+
+.el5 {
+    width: 800px;
+    height: 130px;
+    background: linear-gradient(to left, yellow, blue);
+    float: right;
+    margin-top: 100px;
+}
+
+.el6 {
+    width: 100px;
+    height: 1650px;
+    background: linear-gradient(to top, green, blue);
+    float: right;
+}
+
+.el7 {
+    display: inline-block;
+    position: relative;
+    top: 35vh;
+    width: 300px;
+    height: 500px;
+    background: linear-gradient(to right, yellow, orange, red);
+    margin-left: 500px;
+    border-radius: 50%;
+}
+
+.el8 {
+    position: absolute;
+    top: 450px;
+    right: 1500px;
+    width: 100px;
+    height: 800px;
+    background: linear-gradient(to bottom, yellow, blueviolet);
+}
+
+.el9 {
+    width: 400px;
+    height: 400px;
+    top: 450px;
+    right: 550px;
+    background: linear-gradient(to right, black, red);
+    margin-top: 100px;
+}
+
+.el10 {
+    position: absolute;
+    width: 5110px;
+    height: 500px;
+    background: linear-gradient(to bottom, green, pink);
+    bottom: 0px;
+}
